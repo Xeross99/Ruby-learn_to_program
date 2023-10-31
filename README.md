@@ -1,1 +1,1 @@
-# Ruby-learn_to_program
+Exercises from the book: Learn to Program by Chris Pine
