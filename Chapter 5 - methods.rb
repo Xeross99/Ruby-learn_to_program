@@ -50,6 +50,33 @@ puts (str.rjust(line_width))
 puts (str.ljust(line_width/2) + str.rjust(line_width/2))
 puts ""
 
+puts 5**2
+puts 5**0.5
+puts 7/3
+puts 7%3
+puts (5-2).abs
+puts (2-5).abs
+puts ""
+
+puts rand
+puts rand
+puts (rand(1000))
+puts (rand(10))
+puts ("My weather app said there is a")
+puts ("#{rand(101)}% chance of rain")
+puts ""
+
+srand (1976)
+puts (rand(100))
+puts (rand(100))
+puts (rand(100))
+puts "---"
+srand (1976)
+puts (rand(100))
+puts (rand(100))
+puts (rand(100))
+puts ""
+
 # Excercises
 
 # 1. Write angry boss program
