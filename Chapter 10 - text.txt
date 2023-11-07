@@ -1,0 +1,5 @@
+Chris Hemsworth,    Aug 11, 1983
+Chris Evans,        Jun 13, 1981
+Chris Pratt,        Jun 21, 1979
+Chris Pine,         Aug 26, 1980
+Other Chris Pine,   Aug  3, 1976
