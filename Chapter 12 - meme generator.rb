@@ -36,6 +36,6 @@ template_id = '181913649'
 username = "#{@api_login}"
 password = "#{@api_password}"
 text0 = 'Robienie mema w generatorze'
-text1 = 'Robienie mema w VScode'
+text1 = 'Robienie mema w vscode'
 
 create_meme(template_id, username, password, text0, text1)

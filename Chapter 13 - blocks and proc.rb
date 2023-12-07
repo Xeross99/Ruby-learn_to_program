@@ -99,3 +99,41 @@ end
 
 yum = "lemonade with a hint of orange blossom water"
 puts do_untill_false(yum, always_false)
+puts
+
+# Excercises
+
+# 1
+current_time = Time.now
+formatted_time = current_time.strftime("%I")
+
+puts("It's #{current_time.hour}:#{current_time.min}")
+formatted_time.to_i.times do 
+  puts ("BONG!")
+end 
+
+# 2
+def profile(block_description, &block)
+  start_time = Time.new
+  block.call
+  duration = Time.new - start_time
+  puts "#{block_description}: #{duration} seconds"
+end
+
+profile("25000 doublings") do
+  number = 1
+
+  25000.times do 
+    number += number
+  end
+
+  puts "#{number.to_s.length} digits"
+end
+
+profile("count to a milion") do
+  number = 0
+
+  1000000.times do
+    number += 1
+  end
+end
