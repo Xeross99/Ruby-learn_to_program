@@ -90,6 +90,7 @@ class Tournament
 
   def sort_quesions
     sorted_questions = []
+    puts @questions
 
     @questions.each do |quest|
       results = quest["results"]
